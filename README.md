@@ -31,20 +31,6 @@ This project implements a fully-connected neural network with configurable archi
 - Best weights saving during training
 - Early stopping based on validation loss
 
-## Project Structure
-
-```
-NeuralNetwork-MNIST/
-├── Core/
-│   └── neural_network.py     # Core neural network implementation
-├── Utils/
-│   ├── data_preprocessing.py # Data preprocessing utilities
-│   └── drawing_predictor.py  # Interactive testing interface
-├── Notebooks/
-│   └── main.ipynb            # Training examples and demonstrations
-└── Models/                   # Directory for saved models
-```
-
 ## Installation
 
 ```bash
@@ -88,7 +74,6 @@ The implementation achieves the following performance metrics on the MNIST datas
 - Matplotlib
 - Scikit-learn
 - Pillow
-- CuPy (optional, for GPU acceleration)
 
 ## License
 
